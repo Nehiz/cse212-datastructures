@@ -12,8 +12,7 @@ public class PriorityQueueTests
     public void TestPriorityQueue_1()
     {
         var priorityQueue = new PriorityQueue();
-        priorityQueue.Enqueue("A", 3);
-        priorityQueue.Enqueue("B", 1);
+        priorityQueue.Enqueue("A", 3);        priorityQueue.Enqueue("B", 1);
         priorityQueue.Enqueue("C", 5);
         priorityQueue.Enqueue("D", 2);
 
